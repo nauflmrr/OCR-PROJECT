@@ -1,0 +1,7 @@
+# OCR PROJECT - MINIMAL DEPENDENCIES
+# Compatible with Python 3.14+
+
+pytesseract==0.3.10      # OCR Engine wrapper
+Pillow==10.1.0          # Image processing
+numpy==1.26.3           # Array operations (optional)
+matplotlib==3.8.2       # Visualization (optional)

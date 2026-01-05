@@ -1,0 +1,63 @@
+# OCR Project - Python
+# File ini harus di ROOT folder (OCR-Project/.gitignore)
+
+# ============ VIRTUAL ENVIRONMENT ============
+ocr_env/
+venv/
+env/
+ENV/
+
+# ============ PYTHON CACHE ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============ IDE & EDITOR ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============ TEST & OUTPUT FILES ============
+test_data/
+images/output/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+test_*.txt
+output/
+results/
+
+# ============ LOGS & TEMP ============
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.temp
