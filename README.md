@@ -1,18 +1,6 @@
 # 🖼️ OCR (Optical Character Recognition) Application  
 **Python-Based OCR with GUI and CLI Support**
 
-## 📖 Daftar Isi
-1. [Deskripsi Proyek](#-deskripsi-proyek)
-2. [Fitur Utama](#-fitur-utama)
-3. [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
-4. [Instalasi dan Setup](#-instalasi-dan-setup)
-5. [Cara Menjalankan](#-cara-menjalankan)
-6. [Struktur Proyek](#-struktur-proyek)
-7. [Penggunaan Aplikasi](#-penggunaan-aplikasi)
-8. [Troubleshooting](#-troubleshooting)
-9. [Untuk Laporan/Karya Ilmiah](#-untuk-laporankarya-ilmiah)
-10. [Lisensi](#-lisensi)
-
 ---
 
 ## 🎯 Deskripsi Proyek
@@ -64,3 +52,4 @@ Aplikasi OCR (Optical Character Recognition) ini dikembangkan menggunakan Python
 pytesseract==0.3.10      # Python wrapper untuk Tesseract
 Pillow==10.1.0           # Image processing library
 numpy==1.26.3            # Array operations (opsional)
+
