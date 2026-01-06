@@ -1,33 +1,66 @@
-# 🚀 Try Online (No Installation Needed!)
+# 🖼️ OCR (Optical Character Recognition) Application  
+**Python-Based OCR with GUI and CLI Support**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/YOUR_USERNAME/OCR-Project)
+## 📖 Daftar Isi
+1. [Deskripsi Proyek](#-deskripsi-proyek)
+2. [Fitur Utama](#-fitur-utama)
+3. [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+4. [Instalasi dan Setup](#-instalasi-dan-setup)
+5. [Cara Menjalankan](#-cara-menjalankan)
+6. [Struktur Proyek](#-struktur-proyek)
+7. [Penggunaan Aplikasi](#-penggunaan-aplikasi)
+8. [Troubleshooting](#-troubleshooting)
+9. [Untuk Laporan/Karya Ilmiah](#-untuk-laporankarya-ilmiah)
+10. [Lisensi](#-lisensi)
 
-Click the button above to run this application directly in your browser!
+---
 
-## Features in Codespaces:
-✅ Pre-configured Python 3.11  
-✅ Tesseract OCR pre-installed  
-✅ All dependencies auto-installed  
-✅ VS Code in browser  
-✅ No installation required
+## 🎯 Deskripsi Proyek
 
-## How to run in Codespaces:
-1. Click the "Open in GitHub Codespaces" button above
-2. Wait for environment setup (2-3 minutes)
-3. Open terminal in Codespaces
-4. Run: `python main.py`
-5. The GUI application will open!
+Aplikasi OCR (Optical Character Recognition) ini dikembangkan menggunakan Python untuk mengonversi teks dalam gambar menjadi teks digital yang dapat diedit. Aplikasi mendukung pemrosesan gambar, ekstraksi teks multi-bahasa, serta tersedia dalam dua mode: **GUI (Graphical User Interface)** dan **CLI (Command Line Interface)**.
 
-## Local Installation (Traditional):
-```bash
-# 1. Install Python from python.org
-# 2. Install Tesseract OCR
-# 3. Clone repository
-git clone https://github.com/YOUR_USERNAME/OCR-Project.git
-cd OCR-Project
+### **Tujuan Pengembangan:**
+1. Membangun sistem OCR yang dapat mengenali teks bahasa Indonesia dan Inggris
+2. Mengimplementasikan preprocessing gambar untuk meningkatkan akurasi OCR
+3. Membuat antarmuka pengguna yang mudah digunakan (GUI dan CLI)
+4. Mendukung eksekusi di berbagai platform (local, cloud, GitHub Codespaces)
 
-# 4. Install Python dependencies
-pip install -r requirements.txt
+---
 
-# 5. Run application
-python main.py
+## ✨ Fitur Utama
+
+### ✅ **Core Features:**
+- **Multi-language OCR**: Mendukung bahasa Indonesia, Inggris, dan lainnya
+- **Image Preprocessing**: Grayscale conversion, thresholding, noise removal
+- **Dual Interface**: GUI (Tkinter) dan CLI untuk berbagai kebutuhan
+- **Batch Processing**: Dapat memproses multiple gambar sekaligus
+- **Export Results**: Simpan hasil dalam format TXT, JSON, atau CSV
+
+### ✅ **Platform Support:**
+- **Local Desktop**: Jalankan dengan GUI di Windows/Mac/Linux
+- **GitHub Codespaces**: Jalankan di browser tanpa instalasi
+- **Headless Server**: Dapat berjalan di environment tanpa display
+
+### ✅ **User Experience:**
+- Preview gambar sebelum dan sesudah preprocessing
+- Statistik akurasi OCR (confidence level)
+- History pemrosesan
+- Auto-save hasil
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+### **Core Technologies:**
+| Teknologi | Versi | Fungsi |
+|-----------|-------|---------|
+| **Python** | 3.7+ | Bahasa pemrograman utama |
+| **Tesseract OCR** | 5.0+ | Engine pengenalan teks |
+| **PIL (Pillow)** | 10.0+ | Image processing tanpa OpenCV |
+| **Tkinter** | 8.6+ | GUI framework (built-in Python) |
+
+### **Dependencies:**
+```txt
+pytesseract==0.3.10      # Python wrapper untuk Tesseract
+Pillow==10.1.0           # Image processing library
+numpy==1.26.3            # Array operations (opsional)
